@@ -1,6 +1,6 @@
 export const BUILTINS = Object.freeze([
-  {id:'main',name:'Основной смартфон (HUAWEI Pura 70 PRO)',device:'HUAWEI Pura 70 PRO',batch:'Не указана в исходных данных',conditions:'Использовать только при воспроизведении условий исследования',a:0.332148,b:-0.000832,r2:0.9812,min:0,max:100,builtin:true},
-  {id:'second',name:'Второй смартфон (XIAOMI Redmi 13 Pro)',device:'XIAOMI Redmi 13 Pro',batch:'Не указана в исходных данных',conditions:'Использовать только при воспроизведении условий исследования',a:0.353782,b:-0.000957,r2:0.9784,min:0,max:100,builtin:true}
+  {id:'main',name:'Основной смартфон (HUAWEI Pura 70 PRO)',device:'HUAWEI Pura 70 PRO',batch:'Test Strips 16 in 1 (партия не указана)',conditions:'Освещение: лампа с холодным светом. Фон: белый. Считывание: через 30 секунд после смачивания.',a:0.332148,b:-0.000832,r2:0.9812,min:0,max:100,builtin:true},
+  {id:'second',name:'Второй смартфон (XIAOMI Redmi 13 Pro)',device:'XIAOMI Redmi 13 Pro',batch:'Test Strips 16 in 1 (партия не указана)',conditions:'Освещение: лампа с холодным светом. Фон: белый. Считывание: через 30 секунд после смачивания.',a:0.353782,b:-0.000957,r2:0.9784,min:0,max:100,builtin:true}
 ]);
 export function number(value){
   if(typeof value==='number') return Number.isFinite(value)?value:NaN;
