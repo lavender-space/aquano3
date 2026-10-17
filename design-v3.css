@@ -1,0 +1,86 @@
+/* Larger readable text and a shared illustrated masthead. */
+body{font-size:16px;line-height:1.6}
+input,select,textarea,.three-fields input{font-size:16px;line-height:1.45;min-height:50px}
+label{font-size:15px}
+.header nav a{font-size:15px}
+.brand small{font-size:9px}
+.version{font-size:12px}
+.hero{min-height:340px;background:#163e7b}
+.hero-copy{width:52%;padding:32px 36px 29px}
+.hero h1{font-size:68px;letter-spacing:-3px;margin:13px 0 9px;line-height:1.1}
+.hero .hero-tagline{font-size:24px;font-weight:550;line-height:1.3;color:#fff;margin:0 0 14px}
+.hero p{font-size:16px;max-width:390px;line-height:1.65}
+.hero .eyebrow{font-size:11px;letter-spacing:1.6px}
+.hero-visual{width:58%}
+.hero-visual img{object-position:64% 49%}
+.hero-visual::before{background:linear-gradient(90deg,#163e7b 0%,#163e7bcc 7%,transparent 30%)}
+.hero-chips{flex-wrap:wrap;gap:7px;margin-top:22px}
+.hero-chips span{font-size:11px;padding:7px 9px}
+.hero-chips i{font-size:13px}
+.hero-link{font-size:13px;margin-top:17px}
+.hero-photo-label{right:20px;bottom:18px;background:#ffffffeb;color:#21496b;border-color:#ffffffa3}
+.hero-photo-label span{font-size:10px;color:#4f708b}
+.hero-photo-label strong{font-size:16px;color:#4455a0}
+.workspace-title p,.page-heading p{font-size:16px}
+.workspace-title h2{font-size:28px}
+.local-badge{font-size:12px;white-space:normal}
+.card-head h3{font-size:20px}
+.step{font-size:12px;width:32px;height:32px}
+.segmented{flex-wrap:wrap}
+.segmented button{font-size:14px;min-height:46px;line-height:1.4}
+.upload-zone strong{font-size:19px}
+.upload-zone p{font-size:15px}
+.upload-zone small{font-size:12px}
+.button{font-size:15px;min-height:48px;line-height:1.4}
+.demo-link,.text-button{font-size:14px;line-height:1.5}
+.helper{font-size:15px;line-height:1.8}
+.small-text{font-size:13px;line-height:1.75}
+.profile-summary{font-size:13px;overflow-wrap:anywhere}
+.result-label{font-size:12px}
+.result-value span{font-size:15px}
+.result p,.result .demo-flag{font-size:13px}
+.result-value.status-value{font-size:27px}
+.range-labels{font-size:12px}
+.notice{font-size:14px;line-height:1.7}
+.notice p{font-size:inherit}
+.bottom-notes p{font-size:14px}
+.bottom-notes b{font-size:15px}
+.bottom-notes>div,.bottom-notes>a{min-width:0}
+.discovery-banner p,.method-cover p{font-size:15px}
+.discovery-banner .eyebrow,.method-cover .eyebrow,.eyebrow{font-size:11px}
+.photo-toolbar,.roi-toolbar,.roi-access,.roi-access .helper{font-size:13px}
+.rgb-readout small{font-size:12px}
+.rgb-readout strong{font-size:21px}
+.rgb-readout{grid-template-columns:repeat(3,minmax(0,1fr))}
+.norm-cell{gap:10px;flex-wrap:wrap}
+table{font-size:14px}
+th{font-size:12px}
+.empty-table{font-size:14px}
+.fit-summary{font-size:14px;overflow-wrap:anywhere}
+.profile-card h3{font-size:23px;overflow-wrap:anywhere}
+.profile-card .equation{font-size:16px}
+.profile-card dl{font-size:15px;line-height:1.85}
+.pill{display:inline-block;font-size:11px;max-width:100%;overflow-wrap:anywhere}
+.empty-profiles{font-size:15px}
+.prose p,.prose li{font-size:16px;line-height:1.85}
+.prose h3{font-size:20px}
+.formula-block{font-size:19px}
+.error,.toast{font-size:14px}
+.footer-brand{font-size:21px}
+.footer-brand span,footer,footer p{font-size:12px}
+.analysis-grid>*,.cal-grid>*,.profile-grid>*,.method-grid>*{min-width:0}
+@media(min-width:1400px){.hero{min-height:370px}.hero-copy{padding:36px 40px}.hero h1{font-size:76px}}
+@media(min-width:761px) and (max-width:1050px){
+ .hero-copy{width:54%;padding:28px}.hero h1{font-size:59px}.hero .hero-tagline{font-size:22px}.hero p{font-size:15px}.hero-chips{max-width:320px}.hero-chips i{display:none}.hero-photo-label{right:12px;bottom:15px;padding:10px}.hero-photo-label strong{font-size:14px}
+ .analysis-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}.card{padding:22px}.segmented button{font-size:13px}.header nav a{padding:11px 13px;font-size:14px}
+}
+@media(max-width:760px){
+ .header{padding-top:18px;gap:14px}.brand{font-size:28px}.brand small{font-size:8px}.header nav{gap:2px}.header nav a{font-size:13px;padding:11px 9px}
+ .hero{margin:22px 0 26px;min-height:0}.hero-copy{width:100%;padding:25px 25px 20px}.hero h1{font-size:59px;letter-spacing:-2.5px;margin:11px 0 8px}.hero .hero-tagline{font-size:22px;margin-bottom:12px}.hero p{font-size:15px;line-height:1.65;max-width:100%}.hero .eyebrow{font-size:10px;letter-spacing:1.2px}.hero-chips{margin-top:18px;gap:6px}.hero-chips span{font-size:11px;padding:7px 8px}.hero-chips i{font-size:11px}.hero-link{font-size:13px;margin-top:15px}
+ .hero-visual{position:relative;inset:auto;width:100%;height:260px}.hero-visual img{object-fit:cover;object-position:62% 45%}.hero-visual::before{background:linear-gradient(180deg,#163e7b 0%,#163e7b66 7%,transparent 27%)}.hero-photo-label{right:15px;bottom:15px}.hero-photo-label span{font-size:9px}.hero-photo-label strong{font-size:15px}
+ .workspace-title h2{font-size:27px}.workspace-title p,.page-heading p{font-size:15px}.local-badge{font-size:12px}.page-heading h1{font-size:34px}.eyebrow{font-size:10px}.card{padding:22px}.card-head h3{font-size:19px}.segmented button{font-size:13px;padding:10px 6px}.button,.button-row .button,.section-top .button{font-size:14px}.button-row .button{padding:12px 14px}.helper{font-size:15px}.small-text{font-size:13px}.upload-zone strong{font-size:18px}.upload-zone p{font-size:14px}.upload-zone small{font-size:12px}.three-fields{gap:8px}.three-fields input{padding:11px 8px;font-size:16px}label{font-size:14px}.demo-link,.text-button{font-size:13px}
+ .result-value.status-value{font-size:25px}.range-labels{font-size:11px}.bottom-notes p{font-size:14px}.bottom-notes b{font-size:15px}.discovery-banner p,.method-cover p{font-size:15px}.discovery-banner .eyebrow,.method-cover .eyebrow{font-size:10px}.profile-card h3{font-size:22px}.profile-card .equation{font-size:15px}.profile-card dl{font-size:15px}.fit-summary{font-size:13px}.prose p,.prose li{font-size:16px}.prose h3{font-size:19px}.formula-block{font-size:18px}.roi-toolbar{font-size:12px}.photo-toolbar{font-size:12px}.rgb-readout strong{font-size:20px}.rgb-readout small{font-size:11px}footer p{font-size:12px}
+}
+@media(max-width:370px){
+ .header{padding-left:16px;padding-right:16px}.header nav a{font-size:12px;padding:11px 6px}.hero-copy{padding:24px 20px 18px}.hero h1{font-size:52px}.hero .hero-tagline{font-size:20px}.hero .eyebrow{font-size:9px}.hero-chips{gap:6px}.hero-chips i{display:none}.hero-chips span{font-size:11px}.hero-visual{height:225px}.card{padding:18px}.segmented button{font-size:12px}.local-badge{font-size:12px}.button{gap:10px}.three-fields{gap:6px}.three-fields input{padding-left:7px;padding-right:7px}.profile-card .equation{font-size:14px}
+}
